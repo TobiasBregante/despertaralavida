@@ -58,8 +58,11 @@ footer .brand-footer{
     }
     .home-contain h2{
         font-weight: 700;
-        font-size: .9em !important;
-        margin-top: 5% !important;
+        font-size: 1.3em;
+    }
+    .home-contain h2 span{
+        font-size: 1.4em;
+        margin-top: 1%;
     }
 }
 .about-contain img{

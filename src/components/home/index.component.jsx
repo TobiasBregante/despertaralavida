@@ -13,7 +13,7 @@ const Home = () => {
                         Centro de Tratamiento ambulatorio
                     </h1>
                     <h2 className='mt-5'>
-                        Llamanos, sabemos como ayudarte 11 3049 7371
+                        Llamanos, sabemos como ayudarte <span className='d-block'>11 3049 7371</span>
                     </h2>
                 </article>
             </article>
