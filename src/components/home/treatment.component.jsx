@@ -1,4 +1,5 @@
 const Treatment = () => {
+    const queryWpp = `Hola! Tengo interés en sus servicios.`
     return(
         <>
         <article id='tratamiento' className="row contain about-contain">
@@ -10,7 +11,7 @@ const Treatment = () => {
                 <p className="mb-4">
                     Nuestro tratamiento está basado en el Modelo Minnesota.  
                     La base de un tratamiento exitoso es el compromiso de 
-                    todo el grupo familiar. Es por ello que <i><u>Despertar a la Vida</u></i> 
+                    todo el grupo familiar. Es por ello que <i><u>Despertar a la Vida</u> </i> 
                     propone un abordaje basado en la asistencia del paciente y su familia, 
                     brindando las herramientas necesarias para alcanzar una calidad de vida 
                     solida y saludable. 
@@ -22,7 +23,12 @@ const Treatment = () => {
                     aún pueden sostener, su empleo, estudios, y su propia vida, sin haber entrado 
                     en la fase de pérdidas, consecuencia directa de las conductas autodestructivas. 
                 </p>
-                <a href="#" className='btn btn-contact'>Contactanos</a>
+                <input
+                    onClick={() => window.open(`https://api.whatsapp.com/send?phone=5491130497371&text=${queryWpp}`, '_blank')} 
+                    type="button" 
+                    className='btn btn-contact'
+                    value='Contactanos'
+                />
             </article>
             <article className="col-12 mt-4">
                 <h2>Modalidad de Tratamiento</h2><hr />
@@ -32,7 +38,7 @@ const Treatment = () => {
                     que guiaran y ayudaran a la persona a incorporar patrones de conducta saludables. 
                     Mejorando su calidad de vida,  como así también la de su familia y entorno.   
                     La asistencia es de 2 veces semanales el paciente y 1 vez la familia. Los tiempos 
-                    son de 2 hs. cada día. De esta manera brindamos herramientas integrales a todo el 
+                    son de 2 hs. cada día. De esta manera brindamos herramientas a todo el 
                     grupo familiar alcanzando una recuperación integral. Los grupos son reducidos con 
                     un máximo de 10 pacientes por grupo.
                 </p>

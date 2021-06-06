@@ -10,26 +10,18 @@ const Home = () => {
                 <article className="banner col-12"/>
                 <article className="col-12">
                     <h1>
-                        <i>
-                            <strong>
-                                Centro de Tratamiento ambulatorio Para la 
-                                Recuperación de Enfermedades Crónicas y 
-                                Conductas Auto-destructivas
-                            </strong>
-                        </i>
+                        Centro de Tratamiento ambulatorio Para la 
+                        Recuperación de Enfermedades Crónicas y 
+                        Conductas Auto-destructivas
                     </h1>
                     <h2 className='mt-5'>
-                        <i>
-                            <strong>
-                                Llamanos, sabemos como ayudarte 11 3049 7371
-                            </strong>
-                        </i>
+                        Llamanos, sabemos como ayudarte 11 3049 7371
                     </h2>
                 </article>
             </article>
             <About/>
-            <Team/>
             <Treatment/>
+            <Team/>
         </Body>
     )
 }

@@ -52,6 +52,9 @@ footer .brand-footer{
         border-radius: 0px;
         width: 100%;
     }
+    .home-contain h1, .home-contain h2{
+        font-size: .9em !important;
+    }
 }
 .about-contain img{
     border-radius: 70% 45% 70% 45%;
