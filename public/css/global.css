@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    background-color: rgba(255, 209, 102, 1);
+}
+.contain{
+    min-height: 100vh;
+}
+footer{
+    background-color: rgba(7, 59, 76, 1);
+    text-align: center;
+    padding: 3%;
+    color: #FFF;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1%;
+    margin: .5%;
+}
+footer .brand-footer{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+}
+.navbar{
+    background-color: rgba(239, 71, 111, 1);
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+.about-contain{
+    background-color: rgba(239, 71, 111, 1);
+    border-radius: 50px;
+    width: 95vw;
+    margin: 5% auto !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 3%;
+    color: #FFF;
+}
+@media (max-width: 780px){
+    .about-contain{
+        border-radius: 0px;
+        width: 100%;
+    }
+}
+.about-contain img{
+    border-radius: 70% 45% 70% 45%;
+    max-width: 100%;
+    max-height: 100%;
+}
+.home-contain{
+    text-align: center;
+    padding: 3%;
+    color: #FFF;
+}
+.btn-contact{
+    background-color: rgba(17, 138, 178, 1) !important;
+    color: #FFF !important;
+    padding: 2%;
+    font-weight: 600;
+}
+.home-contain .banner{
+    background-image: url('../img/slogan-extended.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: auto;    
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+}
+.team-contain{
+    min-height: 10vh;
+}
+.team-contain ul{
+    padding: 0;
+    margin: 0;
+}
+.team-contain li{
+    background-color: rgba(6, 214, 160, 1);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2%;
+    margin: .5%;
+}
