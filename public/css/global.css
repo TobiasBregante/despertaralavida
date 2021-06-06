@@ -59,9 +59,13 @@ footer .brand-footer{
     max-height: 100%;
 }
 .home-contain{
+    background-image: url('../img/live.jpg');
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding: 3%;
     color: #FFF;
+    min-height: 100vh;
 }
 .btn-contact{
     background-color: rgba(17, 138, 178, 1) !important;

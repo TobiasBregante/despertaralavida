@@ -17,13 +17,13 @@ const Header = () => {
                         <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#equipo">Equipo terapeutico</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#tratamiento">Tratamiento</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                        <a class="nav-link" href="#equipo">Equipo terapeutico</a>
                         </li>
                         <li className="nav-item">
                             <input 
