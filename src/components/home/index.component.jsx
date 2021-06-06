@@ -10,9 +10,7 @@ const Home = () => {
                 <article className="banner col-12"/>
                 <article className="col-12">
                     <h1>
-                        Centro de Tratamiento ambulatorio Para la 
-                        Recuperación de Enfermedades Crónicas y 
-                        Conductas Auto-destructivas
+                        Centro de Tratamiento ambulatorio
                     </h1>
                     <h2 className='mt-5'>
                         Llamanos, sabemos como ayudarte 11 3049 7371
