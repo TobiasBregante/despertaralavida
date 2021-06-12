@@ -26,6 +26,12 @@ const Header = () => {
                         <a className="nav-link" href="#equipo">Equipo terapeutico</a>
                         </li>
                         <li className="nav-item">
+                        <a className="nav-link" href="#galeria">Galeria</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="#ubicacion">Cómo llegar</a>
+                        </li>
+                        <li className="nav-item">
                             <input 
                                 onClick={() => window.open(`https://api.whatsapp.com/send?phone=5491130497371&text=${queryWpp}`, '_blank')}
                                 type="button" 

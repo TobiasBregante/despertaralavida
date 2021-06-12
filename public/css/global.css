@@ -107,3 +107,76 @@ footer .brand-footer{
     padding: 2%;
     margin: .5%;
 }
+.address-home-top{
+    border-right: 2px solid #FFF;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.address-home-top li{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    list-style: none;
+    font-weight: 600;
+    display: block;
+}
+.covid-top li{
+    border-radius: 5px;
+    text-transform: uppercase;   
+    font-weight: 700;
+    font-size: 1em;
+}
+.galery-contain{
+    align-content: center;
+    justify-content: center;
+}
+.galery-contain p{
+    text-align: center;
+}
+.galery-contain .card{
+    background-color: transparent;
+    border: none;
+    margin: .5%;
+}
+.galery-contain .card img{
+    border-radius: 0 !important;
+}
+.openImgGalery{
+    background-color: rgba(0, 0, 0, .8) !important;
+    position: fixed !important;
+    transition: .3s !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    margin: auto !important;
+    z-index: 3 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+.openImgGalery img{
+    max-width: 50% !important;
+    height: auto !important;
+    display: block;
+    margin: auto;
+}
+.openImgGalery:after{
+    background-color: rgba(239, 71, 111, 1);
+    border-radius: 50%;
+    position: absolute;
+    font-size: 1em;
+    text-align: center;
+    content: 'x';
+    z-index: 5 !important;
+    margin: 3%;
+    height: 33px;
+    width: 33px;
+    right: 0;
+    top: 0;
+}
+.contain-map-footer iframe{
+    display: block;
+    height: 30vh;
+    width: 100%;
+    border: 0;
+}
