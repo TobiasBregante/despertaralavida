@@ -12,19 +12,19 @@ const Home = () => {
         const galeryPhotos = [
             {
                 title: 'Nuestra sede',
-                img: '/img/office/LUGAR 1.jpg'
+                img: '/img/office/office1.jpg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/LUGAR 2.jpg'
+                img: '/img/office/office2.jpg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/LUGAR 4.jpg'
+                img: '/img/office/office3.jpg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/SALA DE ESPERA.jpg'
+                img: '/img/office/office4.jpg'
             }
         ]
         setGaleryList(galeryPhotos)

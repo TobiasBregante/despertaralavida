@@ -7,7 +7,6 @@ const CardImg = ({ img, title }) => {
     
     return(
         <article  
-            value='ok'
             onClick={ handlerSwitchOpen }
             className={`card col-12 col-sm-12 col-lg-10 col-xl-3 ${openCard}`}>
             <img src={ img } className="card-img-top" alt={ title } />
