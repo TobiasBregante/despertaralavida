@@ -4,7 +4,7 @@ const Footer = () => {
         <footer className='row'>
             <article id='ubicacion' className="col-12 col-sm-12 col-lg-12 col-xl-12 contain-map-footer">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.405635528572!2d-58.44026808505171!3d-34.61918826582334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca473108bfc5%3A0x9745d87d2373785d!2sAv.%20Rivadavia%205126%2C%20C1424%20CABA!5e0!3m2!1sen!2sar!4v1623528196026!5m2!1sen!2sar"  
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.4534591746246!2d-58.54647028488866!3d-34.516737660407884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb09a8b192c87%3A0x70c278ced8a4b1fb!2sSoldado%20de%20Malvinas%201451%20DPTO%204%2C%20B1607DKY%20Villa%20Adelina%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1643929646030!5m2!1ses!2sar"  
                     allowFullScreen 
                     loading="lazy" />
             </article>

@@ -12,19 +12,23 @@ const Home = () => {
         const galeryPhotos = [
             {
                 title: 'Nuestra sede',
-                img: '/img/office/office1.jpg'
+                img: '/img/office/office2.jpeg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/office2.jpg'
+                img: '/img/office/office1.jpeg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/office3.jpg'
+                img: '/img/office/office4.jpeg'
             },
             {
                 title: 'Nuestra sede',
-                img: '/img/office/office4.jpg'
+                img: '/img/office/office3.jpeg'
+            },
+            {
+                title: 'Nuestra sede',
+                img: '/img/office/office5.jpeg'
             }
         ]
         setGaleryList(galeryPhotos)
@@ -34,8 +38,8 @@ const Home = () => {
         <Body>
             <article className="row home-contain">
                 <ul className='address-home-top col-12 col-sm-12 col-lg-3 col-xl-3'>
-                    <li>Sede Ciudad Autónoma de Buenos Aires</li>
-                    <li>Rivadavia 5126 Piso 3° "3"</li>
+                    <li>Sede Villa Adelina</li>
+                    <li>Soldado De Malvinas <br /> 1451 - DPTO 4</li>
                 </ul>
                 <ul className='address-home-top col-12 col-sm-12 col-lg-3 col-xl-3'>
                     <li>Urgencias 24hs</li>
