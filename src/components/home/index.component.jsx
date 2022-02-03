@@ -38,7 +38,7 @@ const Home = () => {
         <Body>
             <article className="row home-contain">
                 <ul className='address-home-top col-12 col-sm-12 col-lg-3 col-xl-3'>
-                    <li>Sede Villa Adelina</li>
+                    <li>Sede Villa Adelina Bs.As.</li>
                     <li>Soldado De Malvinas <br /> 1451 - DPTO 4</li>
                 </ul>
                 <ul className='address-home-top col-12 col-sm-12 col-lg-3 col-xl-3'>
