@@ -109,13 +109,14 @@ footer .brand-footer{
 }
 .address-home-top{
     border-right: 2px solid #FFF;
-    text-align: left;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
 .address-home-top li{
     text-transform: capitalize;
-    font-size: 1.2em;
+    text-align: center !important;
+    font-size: 1.5em;
     list-style: none;
     font-weight: 600;
     display: block;
